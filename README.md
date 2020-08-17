@@ -6,7 +6,6 @@ WordPress Starter Theme with TailwindCSS and AlpineJS
 ### Dependencies
 
 * [WordPress](https://wordpress.org/)
-* [Composer](https://getcomposer.org/)
 * [Node](https://nodejs.org/) (>= 8.9.0)
 * [NPM](https://www.npmjs.com/)
 * [RollupJS](https://rollupjs.org/guide/en/)
