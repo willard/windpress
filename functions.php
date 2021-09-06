@@ -13,8 +13,9 @@ add_action( 'wp_enqueue_scripts', 'windpress_register_styles' );
  * Register and Enqueue Scripts.
  */
 function windpress_register_scripts() {
-	wp_enqueue_script( 'windpress-js', get_template_directory_uri() . '/dist/main.js', array(), '1', false );
+	wp_enqueue_script( 'windpress-js', get_template_directory_uri() . '/dist/main.js', array(), '1', true );
 	wp_script_add_data( 'windpress-js', 'async', true );
+	wp_script_add_data( 'windpress-js', 'defer', true );
 
 }
 
