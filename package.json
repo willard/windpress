@@ -2,7 +2,7 @@
   "name": "windpress",
   "version": "1.0.0",
   "description": "WordPress and TailwindCSS Boilerplate",
-  "main": "src/main.js",
+  "main": "src/index.js",
   "scripts": {
     "dev": "rollup -c rollup.config.js --watch"
   },
@@ -12,16 +12,21 @@
   "author": "Willard Macay",
   "license": "ISC",
   "dependencies": {
-    "alpinejs": "^2.5.0",
-    "autoprefixer": "^9.8.0",
-    "postcss-import": "^12.0.1",
-    "postcss-nested": "^4.2.3",
-    "postcss-url": "^8.0.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-postcss": "^3.1.3",
-    "tailwindcss": "^1.4.6"
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "alpinejs": "^3.2.4",
+    "autoprefixer": "^10.3.2",
+    "node-sass": "^6.0.1",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6",
+    "postcss-url": "^10.1.3",
+    "rollup-plugin-postcss": "^4.0.1",
+    "swiper": "^7.0.3",
+    "tailwindcss": "^2.2.8"
   },
   "devDependencies": {
-    "rollup": "^2.23.0"
+    "postcss-assets": "^6.0.0",
+    "rollup": "^2.56.3",
+    "rollup-plugin-copy": "^3.4.0"
   }
 }
